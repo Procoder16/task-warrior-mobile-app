@@ -1,0 +1,12 @@
+/.task/*.data
+/.task/*.pem
+/.taskrc
+/android/var/taskd/config
+/android/var/taskd/orgs/Public/users/*/config
+/android/var/taskd/orgs/Public/users/*/tx.data
+/android/var/taskd/taskd.log
+/var/taskd/config
+/var/taskd/orgs/Public/users/*/config
+/var/taskd/orgs/Public/users/*/tx.data
+/var/taskd/taskd.log
+/var/taskd/taskd.pid

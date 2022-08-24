@@ -1,0 +1,47 @@
+name: task
+description: A new Flutter project.
+
+publish_to: 'none'
+
+version: 0.2.3+0.0.0
+
+environment:
+  sdk: ^2.12.0
+  flutter: ^2.8.1
+
+dependencies:
+  cupertino_icons:
+  file_picker_writable:
+  file_selector:
+  file_selector_linux:
+  file_selector_macos:
+  file_selector_windows:
+  flutter:
+    sdk: flutter
+  flutter_linkify:
+  google_fonts:
+  linkify:
+  package_info_plus:
+  path_provider:
+  path_provider_macos:
+  taskc:
+    path: ../taskc
+  taskj:
+    path: ../taskj
+  taskw:
+    path: ../taskw
+  url_launcher:
+  uuid:
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  test:
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/
+    - assets/.task/
+    - google_fonts/
